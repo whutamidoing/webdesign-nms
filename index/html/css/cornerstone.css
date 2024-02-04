@@ -1,0 +1,155 @@
+@font-face {
+    font-family: oxa;
+    src: url(../fonts/Oxanium/Oxanium-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: nms;
+    src: url(../fonts/NMSGeoSans_Kerned.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    
+    position: fixed;
+    margin-bottom: 5rem;
+
+    box-shadow: 5px 5px 5px #000;
+    background-color: #00a098;
+}
+label.logo {
+    display: block;
+    float: left;
+    line-height: 70px;
+    padding: 0px 50px;
+
+    width: 30%;
+    height: 80px;
+    color: #fff;
+    font-size: 2rem;
+    font-family: nms;
+}
+.list {
+    float: right;
+}
+a.nav-link {
+    display: block;
+    width: 90px;
+}
+a, .list {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 15.5px 20px;
+
+    color: #fff;
+    text-decoration: none;
+    font-family: nms;
+
+    transition:opacity 1s;
+}
+.nitrogen {
+    width: 120px;
+    height: 120px;
+    float: left;
+    transform: translateY(-22px);
+
+    display: inline;
+}
+.search-bar {
+    font-family: nms;
+    font-size: 20px;
+
+    margin-top: 1rem;
+    margin-left: 0%;
+    padding: 1vh 2vh;
+    float: left;
+}
+.search-bar:focus {
+    background-color: grey;
+    color: #fff;
+}
+.youtube {
+background-color: #cc0000;
+opacity: 50%;
+}
+.youtube:hover, a:active {
+    opacity: 100%;
+}
+.facebook {
+    background-color: #0000cc;
+    opacity: 50%;
+}
+.facebook:hover, a:active {
+    opacity: 100%;
+}
+.twitter {
+    background-color: #00cccc;
+    opacity: 50%;
+}
+.twitter:hover, .twitter:active {
+    opacity: 100%;
+}
+.menu {
+    background-image: url('../images/No-Mans-Sky-4-K-Wallpaper.jpg');
+    background-size: 120%;
+    opacity: 50%;
+}
+.menu:hover {
+    opacity: 100%;
+}
+.headline {
+    display: inline-block;
+    font-size: 25px;
+    font-family: oxa,Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 20vh;
+    margin-left: 60px;
+    margin-right: 40px;
+    background-color: rgb(238, 62, 39);
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin-bottom: 5%;
+}
+.supporting-details_head, .conclusion_head {
+    display: inline-block;
+    font-size: 20px;
+    font-family: oxa,Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-right: 40px;
+    background-color: rgba(255, 0, 76, 0.904);
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.introduction, .supporting-details_body, .conclusion_body {
+    font-size: 20px;
+    font-family: oxa,Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+
+    line-height: 1.5;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+
+    background-color: rgba(255, 0, 64, 0.562);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+body {
+    background-color: #00a2ff;
+    background-image: url('../images/no-mans-sky-concept-art004.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+

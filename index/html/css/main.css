@@ -1,0 +1,57 @@
+body {
+    background-image: url('../images/No-Mans-Sky-4-K-Wallpaper.jpg') ;
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    margin: 0;
+    size: 100%;
+}
+@font-face {
+    font-family: nms;
+    src: url(../fonts/NMSGeoSans_Kerned.ttf);
+}
+@font-face {
+    font-family: presstart;
+    src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+#menu {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.menu-item {
+    color: #fff;
+    font-size:3rem;
+    font-family: nms, presstart, arial;
+
+    display: block;
+    text-decoration: none;
+    padding: 2vw;
+    transition: 400ms ease-out;
+}
+
+#menu-items {
+    margin-left: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+#menu-items:hover > .menu-item {
+    opacity: 0.3;
+}
+
+#menu-items:hover > .menu-item:hover {
+    opacity: 1;
+}
+#page-name {
+    margin-left: 10vw;
+    align-items: center;
+    display: flex;
+    font-family: nms, presstart, arial;
+    font-size: 8rem;
+    color: #fff;
+}

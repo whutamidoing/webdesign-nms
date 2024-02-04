@@ -1,0 +1,121 @@
+@font-face {
+    font-family: NMSFutura;
+    src: url(../fonts/NMSFuturaProBook_Kerned.ttf);
+}
+@font-face {
+    font-family: NMSGeo;
+    src: url(../fonts/NMSGeoSans_Kerned.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/no-mans-sky-concept-art004.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100%;
+}
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../images/ss_6e49.jpg);
+    background-position: center;
+
+    width: 100%;
+    height: 80vh;
+
+    box-shadow: inset 0px -100px 50px 0px;
+}
+nav {
+    width:100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 4px 4px 5px #101010cc;
+}
+ul.navbar {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+a.navlinks,.list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 15vw;
+
+    font-family: NMSFutura, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 400ms ease-out;
+}
+.list:hover, .list:active {
+    background-color: #303030;
+}
+.about-section {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+}
+.about-container {
+    display: flex;
+    align-items: baseline;
+
+    background-color: #00000050;
+
+    padding: 0 5%;
+    width: fit-content;
+    height: fit-content;
+}
+.about {
+    padding: 5% 5%;
+    background-color: #00000050;
+
+    font-family: NMSFutura, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ff7a00;
+}
+.landing-page h1 {
+    font-family: NMSGeo, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+    color: #ffffff;
+
+    padding: 50px;
+    border-radius: 50px;
+
+    background-color: #00d9ffa9;
+}
+.about p {
+    font-size: 36px;
+    margin: 36px;
+}
+.about a {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .landing-page h1 {
+        width: 60vw;
+        font-size: 2rem;
+    }
+    a.navlinks,.list {
+        width: 100%;
+        font-size: 8px;
+    }
+    .about p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+}
+@font-face {
+    font-family: presstart2p;
+    src: url(/html/fonts/PressStart2P-Regular.ttf);
+}
+.link {
+    border-top: 1px solid #fff;
+    color: #fff;
+    font-size:8vw;
+    font-family: presstart2p;
+    display: block;
+    padding: 1vw 4vw;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    background: linear-gradient(green, lime);
+    transition: 800ms;
+}
+.link:hover{
+    width: 100%;
+}
